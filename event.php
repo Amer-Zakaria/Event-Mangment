@@ -85,7 +85,7 @@ try {
                 <p class="text-muted small">No related events found.</p>
             <?php else: ?>
                 <?php foreach ($relatedEvents as $rel): ?>
-                    <div class="card mb-3 border-0 shadow-sm h-100">
+                    <div class="card mb-3 border-0 shadow-sm">
                         <div class="row g-0">
                             <div class="col-4">
                                 <img src="<?php echo $rel['image'] ? 'assets/img/'.$rel['image'] : 'https://via.placeholder.com/150x150?text=Event'; ?>" 
