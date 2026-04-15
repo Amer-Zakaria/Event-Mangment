@@ -1,0 +1,83 @@
+/**
+ * styles.css
+ * Custom styles extending Bootstrap for SVU Events Directory
+ */
+
+:root {
+  --svu-blue: #004a99;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar customization */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Category cards */
+.category-card {
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  cursor: pointer;
+  background: #fff;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  background-color: var(--svu-blue);
+  color: #fff;
+}
+
+/* Event cards */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.5s;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Custom button colors */
+.btn-primary {
+  background-color: var(--svu-blue);
+  border-color: var(--svu-blue);
+}
+
+.btn-primary:hover {
+  background-color: #003a7a;
+  border-color: #003a7a;
+}
+
+/* Event description styling */
+.event-description {
+  color: #444;
+  white-space: pre-line;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px !important;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
