@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <img src="assets/img/logo.png" alt="SVU Logo" width="30" height="30" class="d-inline-block align-text-top me-2" onerror="this.src='https://via.placeholder.com/30'">
+            <img src="assets/img/logo.png" alt="SVU Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
             SVU Events
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
